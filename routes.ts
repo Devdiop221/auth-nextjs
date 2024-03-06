@@ -17,15 +17,15 @@ export const publicRoutes = [
 export const authRoutes = [
     "/auth/login",
     "/auth/register",
+    "/auth/error",
 ]
 
 
 /**
- * The prefix for the API authentication routes
- * Routes that start with this prefix are used for API authentication purposes
+ * The prefix for API authentication routes that start with this prefix are used for API authentication purposes
  * @type {string}
  */
-export const apiAuthprefix = "/api/auth";
+export const apiAuthPrefix = "/api/auth";
 
 
 /**
